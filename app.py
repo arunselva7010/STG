@@ -1,4 +1,5 @@
 import os
+from langchain_community.vectorstores import Chroma
 import chromadb
 import streamlit as st
 from dotenv import load_dotenv
@@ -7,7 +8,6 @@ from langchain.callbacks.manager import CallbackManager
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 from langchain_community.document_loaders import WebBaseLoader
 from langchain_community.embeddings import GPT4AllEmbeddings
-from langchain_community.vectorstores import Chroma
 from langchain import hub
 from langchain_core.runnables import RunnablePassthrough
 from langchain.text_splitter import RecursiveCharacterTextSplitter
