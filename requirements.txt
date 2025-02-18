@@ -1,0 +1,10 @@
+chromadb
+streamlit
+python-dotenv
+langdetect
+langchain
+langchain-community
+langchain-core
+groq
+gpt4all
+beautifulsoup4
