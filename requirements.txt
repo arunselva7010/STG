@@ -1,12 +1,8 @@
-Chroma==0.2.0
-chroma-hnswlib==0.7.6
-chromadb==0.5.23
 streamlit
-python-dotenv
 langdetect
-langchain
-langchain-community
-langchain-core
+dotenv
 groq
-gpt4all
-beautifulsoup4
+langchain
+chromadb
+GPT4All
+llama-index
