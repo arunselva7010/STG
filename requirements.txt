@@ -1,5 +1,6 @@
-chroma
-chromadb
+Chroma==0.2.0
+chroma-hnswlib==0.7.6
+chromadb==0.5.23
 streamlit
 python-dotenv
 langdetect
